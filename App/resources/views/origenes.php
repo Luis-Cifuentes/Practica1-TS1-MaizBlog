@@ -38,6 +38,7 @@
                     }
                 ?>  
             </ul>
+            <img src="../resources/img/Origen.jpg" alt="">
         </article>
     </div>
     <div class="container-footer">

@@ -59,6 +59,10 @@
                         echo $usos;
                     ?>
                 </p>
+                <br>
+                <hr>
+                <img src="../resources/img/Maiz.jpg" alt="" class="cont">
+                <img src="../resources/img/Usos.jpg" alt="" class="cont">
             </article>
         </div>
         <div class="container-footer">
