@@ -1,0 +1,14 @@
+# Activar la reescritura de URL
+RewriteEngine On
+
+# Ignorar los archivos y directorios que existen
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Enrutar las solicitudes a index.php
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+<Files "../config/config.php">
+    Order allow,deny
+    Deny from all
+</Files>
