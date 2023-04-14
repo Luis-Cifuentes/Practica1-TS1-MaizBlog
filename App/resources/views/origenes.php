@@ -31,7 +31,7 @@
                 <?php 
                     foreach ($cont as $cont) {
                         echo "<li>";
-                        echo "<h3>Color " . $cont->lugar_origen . "</h3>";
+                        echo "<h3>" . $cont->lugar_origen . "</h3>";
                         echo "<p>" . $cont->historia . "</p>";
                         echo "</li>";
                         echo "<br>";

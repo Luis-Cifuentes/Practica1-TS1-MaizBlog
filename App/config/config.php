@@ -1,7 +1,7 @@
 <?php
 
 function retornarConn(){
-    $dbhost = 'localhost';
+    $dbhost = 'localhost:3306';
     $dbname = 'ts1maizblog';
     $dbuser = 'root';
     $dbpass = 'nbpjxdxd2';
